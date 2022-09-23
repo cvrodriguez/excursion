@@ -2,16 +2,30 @@ body{
     background-color: black;
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: verdana;
 }
-header h1{
+ h1{
     font-size:  50px;
-    font-family: verna;
     font-weight: normal;
     text-align: center;
-    color: white;
+}
+h2{
+    font-size: 42px;
+    font-weight: 300px;
+}
+p{
+    font-size: 21px;
+    color: gray;
 }
 main{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main div{
     display: flex;
     justify-content: center;
 }
@@ -20,3 +34,12 @@ main a{
    font-size: 16px;
     color: aquamarine;
 }
+.phone{
+    margin-top: 50px;
+}
+footer{
+    margin: 20px;
+    float: right;
+   
+}
+ 
